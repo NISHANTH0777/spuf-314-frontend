@@ -1,0 +1,71 @@
+/* PAGE BACKGROUND */
+.search-page {
+  min-height: 100vh;
+  padding: 40px 20px 120px;
+  background: linear-gradient(180deg, #0f4cbd, #1e3a8a);
+}
+
+/* GLASS CARD */
+.search-card {
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 26px;
+
+  background: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(22px);
+
+  border-radius: 24px;
+  box-shadow:
+    0 25px 45px rgba(0, 0, 0, 0.35),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.25);
+}
+
+/* TITLE */
+.search-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 18px;
+}
+
+/* INPUT */
+.search-input {
+  width: 100%;
+  padding: 14px 16px;
+  margin-bottom: 14px;
+
+  border-radius: 14px;
+  border: none;
+  outline: none;
+
+  font-size: 15px;
+  background: rgba(255, 255, 255, 0.85);
+}
+
+/* BUTTON */
+.search-btn {
+  width: 100%;
+  padding: 14px;
+  margin-top: 10px;
+
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  color: white;
+
+  border: none;
+  border-radius: 14px;
+
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.search-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(37, 99, 235, 0.45);
+}

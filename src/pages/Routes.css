@@ -1,0 +1,87 @@
+.routes-page {
+  min-height: 100vh;
+  padding: 90px 20px 120px;
+  background: linear-gradient(135deg, #eaf2ff, #f7fbff);
+}
+
+/* Title */
+.routes-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 18px;
+}
+
+/* Empty state */
+.routes-empty {
+  color: #64748b;
+  margin-top: 20px;
+}
+
+/* List */
+.routes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/* Route Card */
+.route-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 16px 18px;
+  border-radius: 18px;
+
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.route-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* Left */
+.route-left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+/* Bus Badge */
+.route-badge {
+  background: #2563eb;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* Text */
+.route-text {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 500;
+  color:inherit;
+}
+
+.route-arrow {
+  color: #2563eb;
+  font-weight: 700;
+}
+
+/* Right */
+.route-right {
+  color: #2563eb;
+  font-weight: 600;
+  font-size: 14px;
+}

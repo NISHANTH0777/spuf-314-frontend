@@ -1,0 +1,93 @@
+.recent-page {
+  min-height: 100vh;
+  padding: 40px 20px 120px;
+  background: radial-gradient(
+    circle at top,
+    #eaf2ff,
+    #dbeafe,
+    #c7d2fe
+  );
+}
+
+/* TITLE */
+.recent-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 20px;
+}
+
+/* EMPTY STATE */
+.recent-empty {
+  font-size: 15px;
+  color: #475569;
+}
+
+/* LIST */
+.recent-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* GLASS CARD */
+.recent-glass-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 18px 22px;
+  border-radius: 18px;
+
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(18px);
+
+  box-shadow:
+    0 10px 25px rgba(0, 0, 0, 0.15),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.4);
+
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.recent-glass-card:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 16px 35px rgba(0, 0, 0, 0.2),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+}
+
+/* LEFT SECTION */
+.recent-left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+/* BLUE DOT */
+.recent-dot {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  box-shadow: 0 6px 14px rgba(37, 99, 235, 0.4);
+}
+
+/* ROUTE TEXT */
+.recent-route {
+  font-size: 15px;
+  font-weight: 600;
+  color:inherit;
+}
+
+.recent-time {
+  font-size: 12px;
+  color: #64748b;
+}
+
+/* RIGHT ARROW */
+.recent-arrow {
+  font-size: 22px;
+  color: #1e3a8a;
+}

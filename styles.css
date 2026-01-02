@@ -1,0 +1,28 @@
+body { font-family: system-ui; margin: 0; }
+.dark { background: #0f172a; color: white; }
+
+.page { padding: 20px 20px 120px; }
+.input, .button { width: 100%; padding: 12px; margin: 8px 0; }
+
+.bottom-nav {
+  position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%);
+  width: 95%; display: flex; justify-content: space-around;
+  background: rgba(255,255,255,0.2);
+  backdrop-filter: blur(12px);
+  border-radius: 20px; padding: 10px;
+}
+
+.route-card, .glass-card {
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(14px);
+  border-radius: 16px;
+  padding: 15px;
+  margin-bottom: 12px;
+}
+
+.modal-bg { position: fixed; inset: 0; background: rgba(0,0,0,0.4); }
+.modal {
+  position: fixed; bottom: 0; width: 100%;
+  background: white; border-radius: 20px 20px 0 0;
+  padding: 20px;
+}

@@ -685,3 +685,87 @@ body.dark .recent-empty,
 body.dark .settings-row p {
   color: #94a3b8;
 }
+.route-step {
+  margin: 12px 0;
+  padding: 10px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.08);
+  font-size: 14px;
+}
+
+.step-badge {
+  background: var(--primary);
+  color: white;
+  padding: 4px 10px;
+  border-radius: 999px;
+  margin-right: 8px;
+  font-size: 12px;
+}
+
+.stop-list {
+  margin-left: 16px;
+  opacity: 0.9;
+}
+.route-bus-line {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 6px;
+  flex-wrap: wrap;
+}
+
+.bus-pill {
+  background: rgba(0, 123, 255, 0.15);
+  color: var(--text-primary);
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+}
+
+.transfer-pill {
+  background: rgba(255, 193, 7, 0.2);
+  color: var(--text-primary);
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+}
+
+.route-stops {
+  margin-left: 8px;
+  color: var(--text-muted);
+  font-size: 13px;
+}
+.route-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(6px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.route-modal {
+  width: 90%;
+  max-width: 900px;
+  max-height: 85vh;
+  overflow-y: auto;
+  border-radius: 18px;
+  padding: 20px;
+}
+
+.route-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.close-btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
